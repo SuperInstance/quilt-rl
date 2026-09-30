@@ -1,0 +1,14 @@
+{
+  "name": "quilt-rl",
+  "version": "0.1.0",
+  "description": "RL that converges, in a quilt sheet: the MDP is the sheet, Q-learning over cell states, QRNG-seeded exploration, pinned convergence via shape predicates.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/",
+    "live": "node scripts/live-run.mjs live",
+    "replay": "node scripts/live-run.mjs replay"
+  },
+  "keywords": ["quilt", "q-learning", "reinforcement-learning", "receipts", "convergence", "qrng"],
+  "license": "MIT"
+}

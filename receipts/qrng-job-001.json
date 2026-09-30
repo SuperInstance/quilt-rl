@@ -1,0 +1,35 @@
+{
+  "v": 1,
+  "channel": "moth-live",
+  "ts": "2026-09-30T08:34:14.984Z",
+  "engine": "comet-qrng-v1",
+  "num_bits": 256,
+  "seed_sha256": "921c4affb021a7139e5b3b0e7ed6274bd802d80034d81d4d71f2b01917514324",
+  "seed_hex": "5c8ebd1ae84514ac7f705c80226fda978f7f598675240876e9b1471c1ea95c48",
+  "bits_sha256": "921c4affb021a7139e5b3b0e7ed6274bd802d80034d81d4d71f2b01917514324",
+  "job": {
+    "job_id": "5f4dc0c0-354a-4182-99aa-8f157d807af8",
+    "status": "completed",
+    "polls": 6,
+    "engine_id": "comet-qrng-v1",
+    "params": {
+      "mode": "emu",
+      "num_qubits": 12,
+      "shots": 4096,
+      "output_bytes": 512,
+      "include_raw_counts": true,
+      "bell_witness": true
+    },
+    "delivered_bits": 1032,
+    "requested_bits": 256
+  },
+  "cert": {
+    "h_bit": 0.9036785864868464,
+    "grade": "simulator-baseline",
+    "health_passed": true,
+    "budget_bits": 1167.5629930662253,
+    "extractor": "toeplitz",
+    "extractor_public_seed": "toeplitz-v1"
+  },
+  "note": "1 earlier POST to /api/v1/jobs (brief's guessed shape) returned 405 — no job created, no credits; adopted fleet wave-45-e proven shape engines/comet-qrng-v1/process"
+}
